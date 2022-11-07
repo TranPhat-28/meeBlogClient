@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,400;0,700;1,400&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Kanit', sans-serif;
+  width: 100%;
+}
+
+.navbar-toggler-icon {
+  color: white;
+}
+
+.navbar-toggler {
+  color: white;
+} 
+
+.blog-preview{
+  transition-duration: .2s;
+}
+
+.blog-preview:hover{
+  box-shadow: 0px 0px 15px #888888;
+}
+
+.blog-preview>a>h4{
+  color: indianred;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover{
+  color: inherit;
+}
+
+/* Override Bootstrap button color */
+.btn-primary,
+.btn-primary:active,
+.btn-primary:visited,
+.btn-primary:focus {
+  background-color: indianred;
+  border-color: indianred;
+}
+
+.btn-primary:hover{
+  background-color: rgb(161, 46, 46);
+  border-color: rgb(161, 46, 46);
+}
+
+.btn-outline-primary{
+  border-color: indianred;
+  color: indianred;
+}
+
+.btn-outline-primary:hover{
+  border-color: indianred;
+  background-color: indianred;
+}
+
+.btn-outline-primary:focus{
+  border-color: indianred;
+  background-color: indianred;
+}
